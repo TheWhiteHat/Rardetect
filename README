@@ -1,0 +1,16 @@
+rardetect
+a simple rar detection tool
+to compile, run
+"gcc -o rardetect rardetect.c"
+pretty simple, huh?
+it's even simpler to use.
+./rardetect picture.jpg
+even simpler, right?
+simply substitute picture.jpg with the name of any file that you think has a rar
+known bugs: (I will not fix any of them, so just fork off if it bothers you (get it? I'm funny))
+* will sometimes give false positives if files just happen to have rar headers
+* will not find more rar files than just the first
+* will not open rar files
+* will not tell you the offset of the rar (I may fix this bug)
+* does not brew coffee while you wait
+* will not find rar files that have been obscured
